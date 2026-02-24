@@ -4,7 +4,6 @@ import os
 
 base = os.path.dirname(__file__)
 caminho = os.path.join(base, 'respostas.json')
-arq = open(caminho, encoding = 'utf8')
 
 with open(caminho, encoding="utf8") as arq:
     palavras = json.load(arq)
